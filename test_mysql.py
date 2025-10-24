@@ -1,17 +1,17 @@
 import mysql.connector
 
-# Connect to your MySQL database
+
 conn = mysql.connector.connect(
     host="localhost",
     user="root",
-    password="@Manutddevil7",   # 🔑 your MySQL password
-    database="Data"             # ✅ your new database name
+    password="**********",   
+    database="Your DataBaseName"             
 )
 
-# Test connection
+
 if conn.is_connected():
-    print("✅ Connection successful!")
+    print(" Connection successful!")
 else:
-    print("❌ Connection failed.")
+    print(" Connection failed.")
 
 conn.close()
