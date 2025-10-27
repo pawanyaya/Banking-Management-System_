@@ -11,7 +11,7 @@ def connect_database():
             password="*********",
             database="Your DataBase Name"
         )
-        print("✅ Connected to MySQL Database successfully!\n")
+        print(" Connected to MySQL Database successfully!\n")
         return conn
     except mysql.connector.Error as err:
         print(f" Database connection failed: {err}")
